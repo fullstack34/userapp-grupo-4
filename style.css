@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    border: none;
+    background-color:rgba(94, 91, 255, 1);
+    
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    width:100%;
+
+}
+
+
+/*FORMULARIO*/
+.conteinerDoformulario{
+    padding: 50px;
+    margin: auto;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 350px;
+    background: linear-gradient(to right top, #0f3034, #34130f);
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    margin: auto;
+}
+
+.formulario h1{
+    padding: 0px 20px 5px 20px;
+    font-family: Calibri;
+    font-size: 40px;
+    font-weight: 570;
+    color: white;
+}
+
+.formulario p{
+    font-family: Calibri;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    max-width: 450px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.conteinerDoInput{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:70%;
+    gap: 6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.conteinerDoInput i{
+   padding-left: 20px;
+   cursor: pointer;
+    
+}
+
+.conteinerDoInput input{
+    width: 85%;
+    height: 45px;
+    border:none;
+    font-size: 15px;
+}
+.conteinerDoInput input:focus-visible {
+    outline:none;
+}
+
+.formulario button{
+    margin: 20px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    background-color: rgba(61, 202, 49, 0.88);
+}
+.formulario button:hover{
+    background-color:rgba(95, 255, 81, 0.88) ;
+}
