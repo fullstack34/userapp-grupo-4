@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+    <title>Login</title>
 </head>
 <body>
-    <main>  
-            <label for="">
-                <h1>Login</h1>
+    <div id="form">
+        
+        <form action="">
             
-                <p>Usuario</p>
-                <div  id="user-login">
-                    <input type="email" name="logintext" id="logintext" placeholder="Email">
-                </div>
-
-                <p>Senha</p>
-                <div id="user-password">
-                    <input type="password" name="loginpass" id="loginpass" placeholder="Senha">
-                </div>
-                
-                <input type="button" value="Entrar">
-                
-                <div id="esqueceuSenha">
-                    <form action="link de esquecer a senha">
-                        <button>Esqueceu a senha?</button>
-                    </form>    
-                </div>
-            </label>
-    </main>
+            <h2 id="title">Login</h2>
+            
+            <label for="">Email</label>
+            
+            <div class="input">
+                <i class="far fa-envelope"></i>
+                <input id="email" name="email" placeholder="Email" type="text">
+            </div>
+            
+            <label for="">Senha</label>
+            
+            <div class="input">
+                <i class="fas fa-lock"></i>
+                <input id="senha" name="senha" placeholder="Password" type="password">
+            </div>
+            
+            <div id="btn">
+                <button type="submit">Entrar</button>
+            </div>
+        </form>
+    </div>
+    
 </body>
 </html>
