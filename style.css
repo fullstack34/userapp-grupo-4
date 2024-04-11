@@ -23,8 +23,7 @@ body{
     width: min-content;
     align-items: center;
     color: #2b344b;
-    animation: iniciar 1.6s ease-out;
-    pointer-events: all;
+
 }
 
 .title{
@@ -54,6 +53,8 @@ body{
     outline: none;
     font-family: 'Poppins', sans-serif;
     transform: translateY(-10%);
+    color: #2b344b;
+    font-size: 11pt;
 }
 
 
@@ -80,14 +81,3 @@ body{
     background: #3617CA;
 }
 
-@keyframes iniciar{
-    0%{
-        top: -20%;
-        opacity: 0;
-        pointer-events: none;
-    }
-    100%{
-        top: 50%;
-        opacity: 100%;
-    }
-}
