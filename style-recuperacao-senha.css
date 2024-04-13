@@ -111,3 +111,18 @@ body{
 .formulario button:hover{
     background: radial-gradient(circle,rgba(51, 57, 191, 1),rgba(24, 27, 89, 1));
 }
+
+
+
+.fadeIn {
+    animation: fadeInAnimation 1s ease-in-out;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
