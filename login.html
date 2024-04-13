@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-cadastro.css">
+    <link rel="stylesheet" href="style-login.css">
     <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
-    <title>Cadastro</title>
+    <title>Login</title>
 </head>
 <body>
     <div id="form">
+        
         <form action="">
-            <h2 class="title">Cadastro</h2>
-            <label for="username">Nome</label>
-            <div class="input">
-                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                <input id="username" name="username" placeholder="Username" type="text">
-            </div>
+            
+            <h2 id="title">Login</h2>
+            
             <label for="">Email</label>
+            
             <div class="input">
                 <i class="far fa-envelope"></i>
                 <input id="email" name="email" placeholder="Email" type="text">
             </div>
-
+            
             <label for="">Senha</label>
+            
             <div class="input">
                 <i class="fas fa-lock"></i>
                 <input id="senha" name="senha" placeholder="Password" type="password">
             </div>
-
-            <label for="">Confirmar a Senha</label>
-            <div class="input">
-                <i class="fas fa-lock"></i>
-                <input id="confirmarsenha" name="confirmarsenha" placeholder="Password" type="password">
-            </div>
-            <div id="btn">
-                <button type="submit">Cadastrar</button>
-            </div>
+            
             <div id="btn">
                 <button type="submit">Entrar</button>
             </div>
+            <div class="link-senha">
+                <a href="forgot-password.html">Esqueceu sua senha?</a>
+                <p>ou</p>
+            </div>
+            
+            <hr>
+            <div class="link-senha">
+                <a href="index.html">Pagina inicial</a>
+            </div>
+            
         </form>
-    </div>  
-
+    </div>
+    
 </body>
 </html>

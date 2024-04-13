@@ -79,15 +79,7 @@ body{
     background: #3617CA;
 }
 
-@keyframes iniciar{
-    0%{
-        top: -20%;
-        opacity: 0;
-        pointer-events: none;
-    }
-    100%{
-        top: 50%;
-        opacity: 100%;
-    }
-
+.link-senha{
+    padding-top: 10px;
+  text-align: center;
 }
