@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    border: none;
+    background-color:rgba(94, 91, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+
+}
+
+
+/*FORMULARIO*/
+.conteinerDoformulario{
+    padding: 100px;
+    margin: auto;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 350px;
+    background: #fff;
+    color: #2b344b;
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    margin: auto;
+}
+
+.formulario h1{
+    padding: 0px 20px 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 570;
+    
+}
+
+.formulario label{
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+    max-width: 450px;
+    font-weight: normal;
+    line-height: 1.8;
+    
+}
+
+.formulario p{
+    font-weight: normal;
+    
+}
+
+.formulario a{
+    color:#3617CA;
+    
+}
+
+.conteinerDoInput{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:70%;
+    gap: 6px;
+    border-radius: 50px;
+    border: 2px #6f7e8a solid;
+}
+
+.conteinerDoInput i{
+   padding-left: 20px;
+   background: #3617CA;
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent;
+}
+
+.conteinerDoInput input{
+    width: 85%;
+    height: 45px;
+    border:none;
+    font-size: 15px;
+    
+}
+
+.conteinerDoInput input:focus-visible {
+    outline:none;
+}
+
+.formulario button{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    width: 20%;
+    height: 50px;
+    font-weight: 400;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    background-color: rgba(51, 57, 191, 1);
+}
+.formulario button:hover{
+    background: radial-gradient(circle,rgba(51, 57, 191, 1),rgba(24, 27, 89, 1));
+}
+
+
+
+.fadeIn {
+    animation: fadeInAnimation 1s ease-in-out;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
