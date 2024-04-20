@@ -83,3 +83,16 @@ body{
     padding-top: 10px;
   text-align: center;
 }
+
+@keyframes iniciar{
+    0%{
+        top: -20%;
+        opacity: 0;
+        pointer-events: none;
+    }
+    100%{
+        top: 50%;
+        opacity: 100%;
+        pointer-events: all;
+    }
+}
