@@ -219,6 +219,8 @@ table td{
 }
 .sidebar h4{
   margin-bottom: 1.5rem;
+  color: #5C8DFF;
+  text-align: center;
 }
 .sidebar .balance{
   display: flex;
