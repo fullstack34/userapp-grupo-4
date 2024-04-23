@@ -1,0 +1,233 @@
+<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Admin Dashboard | By Code Info</title>
+      <link rel="stylesheet" href="dashboard.css" />
+      <!-- Font Awesome Cdn Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+    <body>
+      <header class="header">
+        <div class="logo">
+          <a href="#">Blue Bank</a>
+          <div class="search_box">
+            <input type="text" placeholder="Procurar Blue Bank">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+    
+        <div class="header-icons">
+          <i class="fas fa-bell"></i>
+          <div class="account">
+            <img src="imagens/usuario.png" alt="">
+            <h4>Admin</h4>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <nav>
+          <div class="side_navbar">
+            <span>Menu Principal</span>
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Perfil</a>
+            <a href="#">Histórico</a>
+            <a href="#">Aplicação</a>
+            <a href="#">Documentos</a>
+            <a href="#">Minha Conta</a>
+    
+            <div class="links">
+              <span>Link Rápido</span>
+              <a href="#">Blue Bank</a>
+              <a href="#">MatoPay</a>
+              <a href="#">BrasilPay</a>
+            </div>
+          </div>
+        </nav>
+    
+        <div class="main-body">
+          <h2>Dashboard</h2>
+          <div class="promo_card">
+            <h1>Bem Vindo ao Blue Bank</h1>
+            <span>Acesse</span>
+            <button>Saiba Mais</button>
+          </div>
+    
+          <div class="history_lists">
+            <div class="list1">
+              <div class="row">
+                <h4>Histórico</h4>
+                <a class="options" href="#">Veja Mais</a>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Data</th>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Quantidade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>6, Janeiro, 2022</td>
+                    <td>Antonio Alves</td>
+                    <td>Prêmio</td>
+                    <td>R$1000.00</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>7, Fevereiro, 2022</td>
+                    
+                    <td>Francisco Teixeira</td>
+                    <td>Prata</td>
+                    <td>R$2,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>17, Abril, 2022</td>
+                  
+                    <td>Renan Falcao</td>
+                    <td>Começo</td>
+                    <td>R$5000.00</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>10, Setembro, 2022</td>
+                    <td>Suellen Morais</td>
+                    <td>Prêmio</td>
+                    <td>R$7000.00</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>23, Outubro, 2022</td>
+                    <td>Osvaldo Luiz</td>
+                    <td>Ouro</td>
+                    <td>R$9000.00</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>8, Maio, 2022</td>
+                    <td>Galdino Silva</td>
+                    <td>Prêmio</td>
+                    <td>$6000.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+    
+            <div class="list2">
+              <div class="row">
+                <h4>Documentos</h4>
+                <a class="options" href="#">Carregar</a>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Título</th>
+                    <th>Tipo</th>
+                    <th>Carregando</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>RG</td>
+                    <td>JPG</td>
+                    <td>11</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Passporte</td>
+                    <td>PDF</td>
+                    <td>14</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>CNH</td>
+                    <td>PDF</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Imagem</td>
+                    <td>JPG</td>
+                    <td>16</td>
+                  </tr> 
+                  <tr>
+                    <td>5</td>
+                    <td>CPF</td>
+                    <td>JPG</td>
+                    <td>11</td>
+                  </tr> 
+                  <tr>
+                    <td>6</td>
+                    <td>Licença</td>
+                    <td>PDF</td>
+                    <td>14</td>
+                  </tr> 
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+    
+        <div class="sidebar">
+          <h4>Valor Moedas</h4>
+          
+          <div class="balance">
+            <i id="icons-money" class="fas fa-dollar icon"></i>
+            <div class="info">
+              <h5>DOLLAR</h5>
+              <span><i class="fas fa-dollar"></i>22,000.00</span>
+            </div>
+          </div>
+          
+          <div class="balance">
+            <i class="fa-solid fa-lira-sign"></i>
+            <div class="info">
+              <h5>LIBRA</h5>
+              <span><i class="fa-solid fa-lira-sign"></i>100,000.00</span>
+            </div>
+          </div>
+    
+          <div class="balance">
+            <i class="fas fa-euro icon"></i>
+            <div class="info">
+              <h5>EURO</h5>
+              <span><i class="fas fa-euro"></i>25,000.00</span>
+            </div>
+          </div>
+    
+          <div class="balance">
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            <div class="info">
+              <h5>RUPIA</h5>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>40,000.00</span>
+            </div>
+          </div>
+    
+          <div class="balance">
+            <i class="fa-solid fa-peso-sign"></i>
+            <div class="info">
+              <h5>PESO</h5>
+              <span><i class="fa-solid fa-peso-sign"></i>300,000.00</span>
+            </div>
+          </div>
+          
+          <div class="balance">
+            <i class="fa-solid fa-brazilian-real-sign"></i>
+            <div class="info">
+              <h5>REAL</h5>
+              <span><i class="fa-solid fa-brazilian-real-sign"></i>70,000.00</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </body>
+    </html>
+    </span>
