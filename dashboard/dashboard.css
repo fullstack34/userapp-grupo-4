@@ -1,4 +1,4 @@
-<span style="font-family: verdana, geneva, sans-serif;"> /*  import google fonts */
+/*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* 
 paleta de cores:
@@ -15,7 +15,7 @@ paleta de cores:
 
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
@@ -24,10 +24,12 @@ paleta de cores:
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
   background: #5CC0FF;
 }
-.header{
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,32 +38,37 @@ body{
   background: #5C8DFF;
   border-radius: 5px;
 }
-.logo{
+
+.logo {
   display: flex;
   align-items: center;
 }
-.logo a{
+
+.logo a {
   color: #1FFFF1;
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
   margin: 2rem 8rem 2rem 2rem;
-  
+
 }
-.search_box{
+
+.search_box {
   display: flex;
   align-items: center;
 }
-.search_box input{
+
+.search_box input {
   padding: 9px;
   width: 250px;
   background: rgb(255, 255, 255);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: white;
-  
+
 }
-.search_box i{
+
+.search_box i {
   padding: 10px;
   cursor: pointer;
   color: #ffffff;
@@ -69,29 +76,34 @@ body{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.header-icons{
+
+.header-icons {
   display: flex;
   align-items: center;
 }
-.header-icons i{
+
+.header-icons i {
   margin-right: 2rem;
   cursor: pointer;
   color: white;
 }
-.header-icons .account{
+
+.header-icons .account {
   width: 130px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
 }
-.header-icons .account img{
+
+.header-icons .account img {
   width: 35px;
   height: 35px;
   cursor: pointer;
   border-radius: 50%;
 }
-.container{
+
+.container {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
@@ -100,56 +112,65 @@ body{
 
 /* Side menubar section */
 
-nav{
+nav {
   background: #fff;
   border-radius: 5px;
-  
+
 }
-.side_navbar{
+
+.side_navbar {
   padding: 1px;
   display: flex;
   flex-direction: column;
 }
-.side_navbar span{
+
+.side_navbar span {
   color: #945CFF;
   margin: 1rem 3rem;
   font-size: 15px;
   font-weight: bolder;
 }
-.side_navbar a{
+
+.side_navbar a {
   width: 100%;
   padding: 0.8rem 3rem;
   font-weight: 500;
   font-size: 15px;
 }
-.links{
+
+.links {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
 }
-.links a{
+
+.links a {
   font-size: 13px;
 }
-.side_navbar a{
-  color:#487df8 ;
+
+.side_navbar a {
+  color: #487df8;
   text-decoration: none;
 }
-.side_navbar a:hover{
-  background:#5C8DFF;
+
+.side_navbar a:hover {
+  background: #5C8DFF;
   width: 100px;
   color: white;
 }
-.side_navbar .active{
+
+.side_navbar .active {
   border-left: 2px solid #5C8DFF;
 }
 
 /* Main Body Section */
 
-.main-body{
+.main-body {
   width: 70%;
   padding: 1rem;
 }
-.promo_card{
+
+.promo_card {
   width: 100%;
   color: white;
   margin-top: 10px;
@@ -157,10 +178,14 @@ nav{
   padding: 0.5rem 1rem 1rem 3rem;
   background: #5C8DFF;
 }
-.promo_card h1, .promo_card span, button{
+
+.promo_card h1,
+.promo_card span,
+button {
   margin: 10px;
 }
-.promo_card button{
+
+.promo_card button {
   display: block;
   padding: 6px 12px;
   border-radius: 5px;
@@ -169,41 +194,50 @@ nav{
   background-color: white;
   border-color: white;
 }
-.history_lists{
+
+.history_lists {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
 }
+
 .options {
   color: white;
   text-decoration: none;
 }
+
 .options:hover {
   color: #945CFF;
   text-decoration: none;
 }
-table{
+
+table {
   background: #5C8DFF;
   padding: 1rem;
   text-align: left;
   border-radius: 10px;
 }
-table td, th{
+
+table td,
+th {
   padding: 0.2rem 0.8rem;
   color: rgb(255, 255, 255);
   font-weight: bolder;
 }
-table th{
+
+table th {
   font-size: 15px;
 }
-table td{
+
+table td {
   font-size: 13px;
   color: white;
 }
@@ -211,24 +245,27 @@ table td{
 
 /* Sidebar Section */
 
-.sidebar{
+.sidebar {
   width: 9%;
   padding: 2rem 1rem;
   background: white;
   border-radius: 5px;
 }
-.sidebar h4{
+
+.sidebar h4 {
   margin-bottom: 1.5rem;
   color: #5C8DFF;
   text-align: center;
 }
-.sidebar .balance{
+
+.sidebar .balance {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
   color: #487df8;
 }
-.balance .icon{
+
+.balance .icon {
   color: white;
   font-size: 20px;
   border-radius: 6px;
@@ -236,15 +273,18 @@ table td{
   padding: 1rem;
   background: #487df8;
 }
-.balance .info h5{
+
+.balance .info h5 {
   font-size: 16px;
   color: #487df8;
 }
-.balance .info span{
+
+.balance .info span {
   font-size: 14px;
   color: #0031a3;
 }
-.balance .info i{
+
+.balance .info i {
   margin-right: 2px;
   color: #0031a3;
 }
