@@ -44,6 +44,7 @@ body{
     font-size: 1.2em;
     padding: 5px;
     background: #3617CA;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
@@ -81,17 +82,4 @@ body{
 .link-senha{
     padding-top: 10px;
   text-align: center;
-}
-
-@keyframes iniciar{
-    0%{
-        top: -20%;
-        opacity: 0;
-        pointer-events: none;
-    }
-    100%{
-        top: 50%;
-        opacity: 100%;
-        pointer-events: all;
-    }
 }
