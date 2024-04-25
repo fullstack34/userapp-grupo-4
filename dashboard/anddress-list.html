@@ -1,21 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="anddress-list.css">
-    <title>Tabela de endereços</title>
-</head>
-<body>
-    <nav>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="anddress-list.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <title>Tabela de endereços</title>
+</head>
+
+<body>
+  
+  <header class="header">
+    <div class="logo">
+      <a href="#">Blue Bank</a>
+      <div class="search_box">
+        <input type="text" placeholder="Procurar Blue Bank">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="header-icons">
+      <i class="fas fa-bell"></i>
+      <div class="account">
+        <img src="imagens/usuario.png" alt="">
+        <h4>Admin</h4>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav>
+      <div class="side_navbar">
+        <span>Menu Principal</span>
+        <a href="index.html" class="active">Dashboard</a>
+        <a href="#">Cadastrar endereços</a>
+        <a href="anddress-list.html">Lista de endereços</a>
+        <a href="#">Aplicação</a>
+        <a href="#">Documentos</a>
+        <a href="#">Minha Conta</a>
+        <div class="links">
+          <span>Link Rápido</span>
+          <a href="#">Blue Bank</a>
+          <a href="#">MatoPay</a>
+          <a href="#">BrasilPay</a>
+        </div>
+      </div>
     </nav>
-    <main>
-      <table>
-        
-      </table>
+
+    <main id="conteudo-principal">
+      <div class="div-table">
+        <table class="tabela">
+          <thead class="titulo-tabela">
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>#ID</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>CEP</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>Rua</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>Número</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>Complemento</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>Bairro</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>Cidade</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>UF</h1>
+              </div>
+            </th>
+            <th class="titulo">
+              <div class="conteiner-titulo">
+                <h1>Ações</h1>
+              </div>
+            </th>
+          </thead>
+          <tbody class="linhas-tabela">
+            <tr>
+              <td>1</td>
+              <td>12345-678</td>
+              <td>Rua A</td>
+              <td>100</td>
+              <td>Apto 101</td>
+              <td>Centro</td>
+              <td>São Paulo</td>
+              <td>SP</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>54321-987</td>
+              <td>Rua B</td>
+              <td>200</td>
+              <td>Casa 202</td>
+              <td>Vila Nova</td>
+              <td>Rio de Janeiro</td>
+              <td>RJ</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>98765-432</td>
+              <td>Rua C</td>
+              <td>300</td>
+              <td>Sala 303</td>
+              <td>Jardim das Flores</td>
+              <td>Belo Horizonte</td>
+              <td>MG</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>23456-789</td>
+              <td>Rua D</td>
+              <td>400</td>
+              <td>Loja 404</td>
+              <td>Alto da Serra</td>
+              <td>Curitiba</td>
+              <td>PR</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>87654-321</td>
+              <td>Rua E</td>
+              <td>500</td>
+              <td>Andar 505</td>
+              <td>Lagoa Azul</td>
+              <td>Porto Alegre</td>
+              <td>RS</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>34567-890</td>
+              <td>Rua F</td>
+              <td>600</td>
+              <td>Bloco 606</td>
+              <td>Monte Verde</td>
+              <td>Salvador</td>
+              <td>BA</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>67890-123</td>
+              <td>Rua G</td>
+              <td>700</td>
+              <td>Lote 707</td>
+              <td>Praia do Sol</td>
+              <td>Fortaleza</td>
+              <td>CE</td>
+              <td class="acoes">
+                <button class="botao-excluir"><i class="fa-solid fa-trash"></i></button>
+                <button class="botao-editar"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
-    
+        </div>
 
 </body>
+
 </html>
