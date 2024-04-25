@@ -44,7 +44,7 @@ body{
     font-size: 1.2em;
     padding: 5px;
     background: #3617CA;
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
