@@ -1,5 +1,6 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 /* 
 paleta de cores:
   color1: #5CC0FF azul claro
@@ -23,6 +24,8 @@ paleta de cores:
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -134,7 +137,7 @@ nav {
 .side_navbar a {
   width: 100%;
   padding: 0.8rem 3rem;
-  font-weight: 500;
+  font-weight: bolder;
   font-size: 15px;
 }
 
@@ -155,7 +158,7 @@ nav {
 
 .side_navbar a:hover {
   background: #5C8DFF;
-  width: 100px;
+  width: 150px;
   color: white;
 }
 
@@ -198,14 +201,14 @@ button {
 .history_lists {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   color: white;
 }
 
 .row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  text-align: center;
   margin: 1rem 0;
 }
 
@@ -287,4 +290,19 @@ table td {
 .balance .info i {
   margin-right: 2px;
   color: #0031a3;
+}
+
+/* caixas de informacoes sobre usarios e enderecos */
+
+.box_info{
+  margin: 25px 15px;
+  align-items: center;
+  justify-content: center;
+}
+.number_info{
+  text-align: center;
+}
+.table_info{
+  align-items: center;
+  justify-content: center;
 }
