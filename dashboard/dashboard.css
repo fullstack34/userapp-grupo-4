@@ -115,17 +115,26 @@ body {
 
 /* Side menubar section */
 
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
 nav {
   background: #fff;
   border-radius: 5px;
 
 }
 
+
 .side_navbar {
-  padding: 1px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-}
+  
+ }
 
 .side_navbar span {
   color: #945CFF;
@@ -136,9 +145,10 @@ nav {
 
 .side_navbar a {
   width: 100%;
-  padding: 0.8rem 3rem;
+  padding: 0.5rem 3rem;
   font-weight: bolder;
   font-size: 15px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .links {
@@ -149,6 +159,7 @@ nav {
 
 .links a {
   font-size: 13px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .side_navbar a {
@@ -157,14 +168,15 @@ nav {
 }
 
 .side_navbar a:hover {
-  background: #5C8DFF;
-  width: 150px;
+  background-color: #5C8DFF;
+  transform: scale(1.1);
   color: white;
 }
 
-.side_navbar .active {
+.side_navbar.active {
   border-left: 2px solid #5C8DFF;
 }
+
 
 /* Main Body Section */
 
