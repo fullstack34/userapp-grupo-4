@@ -171,11 +171,12 @@ nav {
 /*Main*/
 .main-body {
   width: 50%;
-  margin-right: 300px;
+  margin: 50px;
+  padding:40px;
 }
 
 .div-table{
-  padding:35px;
+  padding-right:130px;
   width: 100%;
 }
 
