@@ -26,10 +26,12 @@ paleta de cores:
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: center;
+  
 }
 
 body {
   background: #5CC0FF;
+  
 }
 
 .header {
@@ -44,7 +46,8 @@ body {
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
+  
 }
 
 .logo a {
@@ -82,7 +85,8 @@ body {
 
 .header-icons {
   display: flex;
-  align-items: center;
+  align-items: left;
+  order: -1;
 }
 
 .header-icons i {
@@ -91,15 +95,16 @@ body {
   color: white;
 }
 
-.header-icons .account {
+.header-icons.account {
   width: 130px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
+  
 }
 
-.header-icons .account img {
+.header-icons.account img {
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -115,30 +120,43 @@ body {
 
 /* Side menubar section */
 
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  
+}
+
 nav {
   background: #fff;
   border-radius: 5px;
-
+    
 }
+
 
 .side_navbar {
-  padding: 1px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-}
+    
+ }
 
 .side_navbar span {
   color: #945CFF;
   margin: 1rem 3rem;
   font-size: 15px;
   font-weight: bolder;
+  
 }
 
 .side_navbar a {
   width: 100%;
-  padding: 0.8rem 3rem;
+  padding: 0.5rem 3rem;
   font-weight: bolder;
   font-size: 15px;
+  transition: transform 0.3s ease-in-out;
+  
 }
 
 .links {
@@ -149,6 +167,7 @@ nav {
 
 .links a {
   font-size: 13px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .side_navbar a {
@@ -157,14 +176,15 @@ nav {
 }
 
 .side_navbar a:hover {
-  background: #5C8DFF;
-  width: 150px;
+  background-color: #5C8DFF;
+  transform: scale(1.1);
   color: white;
 }
 
-.side_navbar .active {
+.side_navbar.active {
   border-left: 2px solid #5C8DFF;
 }
+
 
 /* Main Body Section */
 
