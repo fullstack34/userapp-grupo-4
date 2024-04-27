@@ -1,4 +1,19 @@
+/*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* 
+paleta de cores:
+  color1: #5CC0FF azul claro
+  color2: #5C8DFF azul escuro
+  color3: #5E5BFF
+  color4: #B2B1FF roxo claro
+  color5: #945CFF roxo escuro
+  color6: #1FFFF1 ciano claro
+
+  valores de moedas: #0031a3
+
+*/
+
 
 
 * {
@@ -11,25 +26,12 @@
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: center;
-
 }
 
-
 body {
-  box-sizing: border-box;
   background: #5CC0FF;
 }
 
-
-#conteudo-principal {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-
-
-/*Menu de navegação*/
 .header {
   display: flex;
   align-items: center;
@@ -81,7 +83,6 @@ body {
 .header-icons {
   display: flex;
   align-items: center;
-  order: -1;
 }
 
 .header-icons i {
@@ -105,14 +106,14 @@ body {
   border-radius: 50%;
 }
 
-
-/*Menu lateral*/
 .container {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   color: white;
 }
+
+/* Side menubar section */
 
 nav {
   background: #fff;
@@ -167,113 +168,105 @@ nav {
   border-left: 2px solid #5C8DFF;
 }
 
+/* Main Body Section */
 
-/*Main*/
 .main-body {
   width: 50%;
   margin-right: 300px;
-}
-
-.div-table{
-  padding:35px;
-  width: 100%;
-}
-
-/*TABELA*/
-
-.tabela {
-  border-spacing: 10px;
-  border-collapse: collapse;
-  color: rgba(255, 255, 255, 0.94);
-  background-color: rgba(123, 121, 255, 0.856);
-  font-weight: 300;
-  text-align: center;
-  padding: 2PX;
-
-}
-
-
-/*Titulo da tabela*/
-.titulo-tabela {
-  background-color: rgb(110, 110, 227);
-  font-size: 5px;
-  height: 80px;
-  color: white;
-
-}
-
-.tabela th,
-td {
-  border: 1px solid #938ff1;
-}
-
-
-.titulo h1 {
-  font-size: 18px;
-}
-
-.conteiner-titulo {
-  text-align: center;
-  padding: 5px;
-  margin: 30px;
-}
-
-
-
-/*Linha da tabela*/
-.linhas-tabela tr{ 
-  font-size: 15px;
-
-}
-
-
-.acoes {
   
-  border-collapse: collapse;
+}
+
+/*Formulario*/
+.form-principal{
+  background-color: #2d83dfcf;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+
+.form-grupo{ 
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.form-coluna{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.form-grupo label{ 
+  font-size: 17px;
+}
+
+.form-grupo input{
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.148); 
+}
+
+.conteiner-botao{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+.conteiner-botao hr{
+  background-color: rgb(246, 240, 240);
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  height: 0.1px;
+  width: 80%;
+  
+}
+
+.botao-cadastrar{
+  background-color:rgb(78, 237, 61);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+  transition: transform 0.3s ease-in-out;
   padding: 5px;
-  margin: 70px;
 
 }
 
-.botao-excluir {
-  width: 60px;
-  height: 30px;
-  color: white;
-  margin: 2px;
-  background-color: rgb(238, 68, 68);
-  border: none;
-  border-radius: 5px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.botao-editar {
-  width: 60px;
-  height: 30px;
-  color: white;
-  margin: 2px;
-  background-color: rgb(78, 237, 61);
-  border: none;
-  border-radius: 5px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.botao-excluir:hover {
-  background-color: rgb(255, 0, 0);
+.botao-cadastrar:hover{
   transform: scale(1.1);
+  background-color:rgb(89, 253, 80)
 }
 
-.botao-editar:hover {
-  background-color: rgb(89, 253, 80);
-  transform: scale(1.1);
+.animated-input {
+  width: 0; /* Define a largura inicial como 0 para esconder o input */
+  padding: 10px; /* Adiciona algum espaço interno */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  opacity: 0; /* Define a opacidade inicial como 0 para esconder o input */
+  animation: slideIn 0.5s forwards; /* Aplica a animação slideIn com duração de 0.5s */
 }
 
-/*
-tr:nth-child(even) {
-    background-color:rgba(155, 154, 247, 0.856);
-    
+@keyframes slideIn {
+  from {
+    width: 0; /* Começa com largura 0 */
+    opacity: 0; /* Começa com opacidade 0 */
   }
-
-tr:hover{
-    background-color: rgb(92, 92, 155);
+  to {
+    width: 200px; /* Termina com largura de 200px */
+    opacity: 1; /* Termina com opacidade 1 */
+  }
 }
-*/

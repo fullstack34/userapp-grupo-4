@@ -1,0 +1,109 @@
+<span style="font-family: verdana, geneva, sans-serif;">
+    <!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cadastrar endereço</title>
+        <link rel="stylesheet" href="address-form.css" />
+        <!-- Font Awesome Cdn Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="logo">
+                <a href="#">Blue Bank</a>
+                <div class="search_box">
+                    <input type="text" placeholder="Procurar Blue Bank">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="header-icons">
+                <i class="fas fa-bell"></i>
+                <div class="account">
+                    <img src="imagens/usuario.png" alt="">
+                    <h4>Admin</h4>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <nav>
+                <div class="side_navbar">
+                    <span>Menu Principal</span>
+                    <a href="index.html">Dashboard</a>
+                    <a href="address-form.html" class="active">Cadastrar endereços</a>
+                    <a href="address-list.html">Lista de endereços</a>
+                    <a href="#">Aplicação</a>
+                    <a href="#">Documentos</a>
+                    <a href="#">Minha Conta</a>
+
+                    <div class="links">
+                        <span>Link Rápido</span>
+                        <a href="#">Blue Bank</a>
+                        <a href="#">MatoPay</a>
+                        <a href="#">BrasilPay</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="main-body">
+
+                <form action="" class="form-principal">
+                    <div class="form-grupo">
+                        <div>
+                            <h1>Cadastrar endereços</h1>
+                        </div>
+                    </div>
+                    <div class="form-grupo">
+                        <div class="form-coluna">
+                            <label for="">CEP</label>
+                            <input type="text" placeholder="000000-00" class="animated-input">
+                        </div>
+                        <div class="form-coluna">
+                            <label for="">Rua</label>
+                            <input type="text" placeholder="Rua ou avenida" class="animated-input">
+                        </div>
+                    </div>
+                    <div class="form-grupo">
+                        <div class="form-coluna">
+                            <label for="">Bairro</label>
+                            <input type="text" placeholder="Ex:Aldeota" class="animated-input">
+                        </div>
+                        <div class="form-coluna">
+                            <label for="">Cidade</label>
+                            <input type="text" placeholder="Ex:Fortaleza" class="animated-input">
+                        </div>
+                    </div>
+                    <div class="form-grupo">
+                        <div class="form-coluna">
+                            <label for="">Número</label>
+                            <input type="text" autocomplete="off" placeholder="300" class="animated-input">
+                        </div>
+                        <div class="form-coluna">
+                            <label for="">UF</label>
+                            <input type="text" placeholder="Ex:CE" class="animated-input">
+                        </div>
+                    </div>
+                    <div class="form-grupo">
+                        <div class="form-coluna">
+                            <label for="">Complemento</label>
+                            <input type="text" placeholder="Apto,Avenida,Casa" class="animated-input">
+                        </div>
+                    </div>
+                    <div class="form-grupo">
+                        <div class="conteiner-botao">
+                            <hr>
+                            <button class="botao-cadastrar">Cadastrar</button>
+                        </div>
+                    </div>
+                    
+                </form>
+
+            </div>
+        </div>
+    </body>
+
+    </html>
+</span>
