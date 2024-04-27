@@ -95,7 +95,7 @@ body {
   color: white;
 }
 
-.header-icons .account {
+.header-icons.account {
   width: 130px;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ body {
   
 }
 
-.header-icons .account img {
+.header-icons.account img {
   width: 35px;
   height: 35px;
   cursor: pointer;
