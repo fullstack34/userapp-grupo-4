@@ -167,10 +167,15 @@ nav {
 }
 
 
-/*Conteudo Principal*/
-#conteudo-principal {
-  padding: 40px;
-  margin-bottom: 150px;
+/*Main*/
+.main-body {
+  width: 50%;
+  margin-right: 300px;
+}
+
+.div-table{
+  padding:35px;
+  width: 100%;
 }
 
 /*TABELA*/
@@ -182,20 +187,15 @@ nav {
   background-color: rgba(123, 121, 255, 0.856);
   font-weight: 300;
   text-align: center;
+  padding: 2PX;
 
 }
 
-
-/*Conteiner tabela*/
-.div-table{
-  margin: auto;
-  width: 100%;
-}
 
 /*Titulo da tabela*/
 .titulo-tabela {
   background-color: rgb(110, 110, 227);
-  font-size: 8px;
+  font-size: 5px;
   height: 80px;
   color: white;
 
