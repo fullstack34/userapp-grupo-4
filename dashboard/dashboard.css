@@ -138,7 +138,7 @@ nav {
 .side_navbar {
   padding: 5px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
     
  }
 
