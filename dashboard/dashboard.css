@@ -24,14 +24,10 @@ paleta de cores:
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  align-items: center;
-  justify-content: center;
-  
 }
 
 body {
   background: #5CC0FF;
-  
 }
 
 .header {
@@ -46,8 +42,7 @@ body {
 
 .logo {
   display: flex;
-  align-items: left;
-  
+  align-items: center;
 }
 
 .logo a {
@@ -85,7 +80,7 @@ body {
 
 .header-icons {
   display: flex;
-  align-items: left;
+  align-items: center;
   order: -1;
 }
 
@@ -95,16 +90,15 @@ body {
   color: white;
 }
 
-.header-icons.account {
+.header-icons .account {
   width: 130px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
-  
 }
 
-.header-icons.account img {
+.header-icons .account img {
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -181,7 +175,7 @@ nav {
   color: white;
 }
 
-.side_navbar.active {
+.side_navbar .active {
   border-left: 2px solid #5C8DFF;
 }
 

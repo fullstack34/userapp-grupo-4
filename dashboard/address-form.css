@@ -83,7 +83,9 @@ body {
 .header-icons {
   display: flex;
   align-items: center;
+  order: -1;
 }
+
 
 .header-icons i {
   margin-right: 2rem;
