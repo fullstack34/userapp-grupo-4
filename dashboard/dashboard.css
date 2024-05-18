@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  padding: 20px;
+  padding: 10px;
   background: #5C8DFF;
   border-radius: 5px;
 }
@@ -45,12 +45,13 @@ body {
   align-items: center;
 }
 
+
 .logo a {
   color: #1FFFF1;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
-  margin: 2rem 8rem 2rem 2rem;
+  margin: 1rem 3rem 1rem 1rem;
 
 }
 
@@ -160,7 +161,7 @@ nav {
 }
 
 .links a {
-  font-size: 13px;
+  font-size: 13%;
   transition: transform 0.3s ease-in-out;
 }
 
