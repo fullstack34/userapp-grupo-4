@@ -11,24 +11,27 @@
 <body>
     <div id="form">
         
-        <form action="" method="post" >
+        <form id="form-login" action="" method="post" >
             
             <h2 id="title">Login</h2>
-            
+            <div>
             <label for="">Email</label>
-            
             <div class="input">
                 <i class="far fa-envelope"></i>
-                <input id="email" name="email" placeholder="Email" type="text">
+                <input id="input-email" name="email" placeholder="Email" type="text">
             </div>
+            <span class="error" id="email-error"></span>
+            </div>            
             
+            <div>
             <label for="">Senha</label>
-            
             <div class="input">
                 <i class="fas fa-lock"></i>
-                <input id="senha" name="senha" placeholder="Password" type="password">
+                <input id="input-senha" name="senha" placeholder="Password" type="password">
             </div>
-            
+            <span class="error" id="senha-error"></span>
+            </div>
+
             <div id="btn">
                 <a id="btn-entrar" href="dashboard/index.html">Entrar</a>
             </div>
@@ -45,6 +48,6 @@
             
         </form>
     </div>
-    
+    <script src="scripts/login.js"></script>
 </body>
 </html>
