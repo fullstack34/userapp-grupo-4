@@ -30,10 +30,10 @@ const elements = {
   elements.formCadastro.addEventListener("submit", (event) => {
     let usernameLength = elements.inputUsername.value.length;
     let emailLength = elements.inputEmail.value.length;
-    let senhaLength = elements.inputSenha.value.length;
-    let senhaConfirmLength = elements.inputSenhaConfirma.value.length;
+    let senhaLength = elements.inputSenha.value;
+    let senhaConfirmLength = elements.inputSenhaConfirma.value;
     let emailValor = elements.inputEmail.value;
-  
+    
     showError(``, `user-error`);
     showError(``, `email-error`);
     showError(``, `senha-error`);
@@ -57,15 +57,21 @@ const elements = {
     if (!emailLength) {
       showError(`campo obrigatorio`, `email-error`);
     }
+    if (senhaLength !== senhaConfirmLength) {
+      showError(`As senhas não coincidem.`, `senha-error`);
+      showError(`As senhas não coincidem.`, `senhaConfirm-error`);
+
+      event.preventDefault();
+
+    }
     if (!senhaLength) {
       showError("campo obrigatorio", `senha-error`);
     }
     if (!senhaConfirmLength) {
       showError(`campo obrigatorio`, `senhaConfirm-error`);
     }
-    if (senhaLength !== senhaConfirmLength) {
-      showError(`As senhas não coincidem.`);
-    }
-  
+    console.log(senhaLength)
+    console.log(senhaConfirmLength)
+    
   });
   
