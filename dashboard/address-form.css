@@ -1,0 +1,274 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* 
+paleta de cores:
+  color1: #5CC0FF azul claro
+  color2: #5C8DFF azul escuro
+  color3: #5E5BFF
+  color4: #B2B1FF roxo claro
+  color5: #945CFF roxo escuro
+  color6: #1FFFF1 ciano claro
+
+  valores de moedas: #0031a3
+
+*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #5CC0FF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: #5C8DFF;
+  border-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  color: #1FFFF1;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 1rem 3rem 1rem 1rem;
+
+}
+
+.search_box {
+  display: flex;
+  align-items: center;
+}
+
+.search_box input {
+  padding: 9px;
+  width: 250px;
+  background: rgb(255, 255, 255);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: white;
+
+}
+
+.search_box i {
+  padding: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #5CC0FF;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  order: -1;
+}
+
+
+.header-icons i {
+  margin-right: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.header-icons .account {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header-icons .account img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+/* Side menubar section */
+
+nav {
+  background: #fff;
+  border-radius: 5px;
+
+}
+
+.side_navbar {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side_navbar span {
+  color: #945CFF;
+  margin: 1rem 3rem;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.side_navbar a {
+  width: 100%;
+  padding: 0.5rem 3rem;
+  font-weight: bolder;
+  font-size: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.links {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  font-size: 13px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.side_navbar a {
+  color: #487df8;
+  text-decoration: none;
+}
+
+.side_navbar a:hover {
+  background-color: #5C8DFF;
+  transform: scale(1.1);
+  color: white;
+}
+
+.side_navbar .active {
+  border-left: 2px solid #5C8DFF;
+}
+
+/* Main Body Section */
+
+.main-body {
+  width: 50%;
+  margin-right: 300px;
+  
+}
+
+/*Formulario*/
+.form-principal{
+  background-color: #2d83dfcf;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+
+.form-grupo{ 
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.form-coluna{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.form-grupo label{ 
+  font-size: 17px;
+}
+
+.form-grupo input{
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.148); 
+}
+
+.conteiner-botao{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+.conteiner-botao hr{
+  background-color: rgb(246, 240, 240);
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  height: 0.1px;
+  width: 80%;
+  
+}
+
+.botao-cadastrar{
+  background-color:rgb(78, 237, 61);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+  transition: transform 0.3s ease-in-out;
+  padding: 5px;
+
+}
+
+.botao-cadastrar:hover{
+  transform: scale(1.1);
+  background-color:rgb(89, 253, 80)
+}
+
+.animated-input {
+  width: 0; /* Define a largura inicial como 0 para esconder o input */
+  padding: 10px; /* Adiciona algum espaço interno */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  opacity: 0; /* Define a opacidade inicial como 0 para esconder o input */
+  animation: slideIn 0.5s forwards; /* Aplica a animação slideIn com duração de 0.5s */
+}
+
+@keyframes slideIn {
+  from {
+    width: 0; /* Começa com largura 0 */
+    opacity: 0; /* Começa com opacidade 0 */
+  }
+  to {
+    width: 200px; /* Termina com largura de 200px */
+    opacity: 1; /* Termina com opacidade 1 */
+  }
+}

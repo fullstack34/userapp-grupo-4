@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+body {
+  box-sizing: border-box;
+  background: #5CC0FF;
+}
+
+
+#conteudo-principal {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*Menu de navegação*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: #5C8DFF;
+  border-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo a {
+  color: #1FFFF1;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 1rem 3rem 1rem 1rem;
+
+}
+
+.search_box {
+  display: flex;
+  align-items: center;
+}
+
+.search_box input {
+  padding: 9px;
+  width: 250px;
+  background: rgb(255, 255, 255);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: white;
+
+}
+
+.search_box i {
+  padding: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #5CC0FF;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  order: -1;
+}
+
+.header-icons i {
+  margin-right: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.header-icons .account {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header-icons .account img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+/*Menu lateral*/
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+nav {
+  background: #fff;
+  border-radius: 5px;
+
+}
+
+.side_navbar {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side_navbar span {
+  color: #945CFF;
+  margin: 1rem 3rem;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.side_navbar a {
+  width: 100%;
+  padding: 0.5rem 3rem;
+  font-weight: bolder;
+  font-size: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.links {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  font-size: 13px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.side_navbar a {
+  color: #487df8;
+  text-decoration: none;
+}
+
+.side_navbar a:hover {
+  background-color: #5C8DFF;
+  transform: scale(1.1);
+  color: white;
+}
+
+.side_navbar .active {
+  border-left: 2px solid #5C8DFF;
+}
+
+
+/*Main*/
+.main-body {
+  width: 50%;
+  margin: 50px;
+  padding:40px;
+}
+
+.div-table{
+  padding-right:130px;
+  width: 100%;
+}
+
+/*TABELA*/
+
+.tabela {
+  border-spacing: 10px;
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 0.94);
+  background-color: rgba(123, 121, 255, 0.856);
+  font-weight: 300;
+  text-align: center;
+  padding: 2PX;
+
+}
+
+
+/*Titulo da tabela*/
+.titulo-tabela {
+  background-color: rgb(110, 110, 227);
+  font-size: 5px;
+  height: 80px;
+  color: white;
+
+}
+
+.tabela th,
+td {
+  border: 1px solid #938ff1;
+}
+
+
+.titulo h1 {
+  font-size: 18px;
+}
+
+.conteiner-titulo {
+  text-align: center;
+  padding: 5px;
+  margin: 30px;
+}
+
+
+
+/*Linha da tabela*/
+.linhas-tabela tr{ 
+  font-size: 15px;
+
+}
+
+
+.acoes {
+  
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 70px;
+
+}
+
+.botao-excluir {
+  width: 60px;
+  height: 30px;
+  color: white;
+  margin: 2px;
+  background-color: rgb(238, 68, 68);
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.botao-editar {
+  width: 60px;
+  height: 30px;
+  color: white;
+  margin: 2px;
+  background-color: rgb(78, 237, 61);
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.botao-excluir:hover {
+  background-color: rgb(255, 0, 0);
+  transform: scale(1.1);
+}
+
+.botao-editar:hover {
+  background-color: rgb(89, 253, 80);
+  transform: scale(1.1);
+}
+
+/*
+tr:nth-child(even) {
+    background-color:rgba(155, 154, 247, 0.856);
+    
+  }
+
+tr:hover{
+    background-color: rgb(92, 92, 155);
+}
+*/
