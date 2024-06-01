@@ -93,6 +93,11 @@ body{
     
 }
 
+
+#email-error{
+    color: red;
+}
+
 .conteinerDoInput input:focus-visible {
     outline:none;
 }

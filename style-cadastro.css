@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* error color */
 
+.error{
+    color: red;
+}
 *{
     margin:0;
     padding:0;
@@ -44,7 +48,7 @@ body{
     font-size: 1.2em;
     padding: 5px;
     background: #3617CA;
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
