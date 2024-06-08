@@ -47,10 +47,7 @@ body{
 .input i{
     font-size: 1.2em;
     padding: 5px;
-    background: #3617CA;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    color: #3617CA;
 }
 
 .input input{
@@ -85,5 +82,5 @@ body{
 
 .link-senha{
     padding-top: 10px;
-  text-align: center;
+    text-align: center;
 }
