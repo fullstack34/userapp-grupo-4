@@ -1,0 +1,323 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* 
+paleta de cores:
+  color1: #5CC0FF azul claro
+  color2: #5C8DFF azul escuro
+  color3: #5E5BFF
+  color4: #B2B1FF roxo claro
+  color5: #945CFF roxo escuro
+  color6: #1FFFF1 ciano claro
+
+  valores de moedas: #0031a3
+
+*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #5CC0FF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+  background: #5C8DFF;
+  border-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo a {
+  color: #1FFFF1;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 1rem 3rem 1rem 1rem;
+
+}
+
+.search_box {
+  display: flex;
+  align-items: center;
+}
+
+.search_box input {
+  padding: 9px;
+  width: 250px;
+  background: rgb(255, 255, 255);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: white;
+
+}
+
+.search_box i {
+  padding: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #5CC0FF;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  order: -1;
+}
+
+.header-icons i {
+  margin-right: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.header-icons .account {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header-icons .account img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+/* Side menubar section */
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  
+}
+
+nav {
+  background: #fff;
+  border-radius: 5px;
+    
+}
+
+
+.side_navbar {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+    
+ }
+
+.side_navbar span {
+  color: #945CFF;
+  margin: 1rem 3rem;
+  font-size: 15px;
+  font-weight: bolder;
+  
+}
+
+.side_navbar a {
+  width: 100%;
+  padding: 0.5rem 3rem;
+  font-weight: bolder;
+  font-size: 15px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.links {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  font-size: 13%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.side_navbar a {
+  color: #487df8;
+  text-decoration: none;
+}
+
+.side_navbar a:hover {
+  background-color: #5C8DFF;
+  transform: scale(1.1);
+  color: white;
+}
+
+.side_navbar .active {
+  border-left: 2px solid #5C8DFF;
+}
+
+
+/* Main Body Section */
+
+.main-body {
+  width: 70%;
+  padding: 1rem;
+}
+
+.promo_card {
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: #5C8DFF;
+}
+
+.promo_card h1,
+.promo_card span,
+button {
+  margin: 10px;
+}
+
+.promo_card button {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #5C8DFF;
+  background-color: white;
+  border-color: white;
+}
+
+.history_lists {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.options {
+  color: white;
+  text-decoration: none;
+}
+
+.options:hover {
+  color: #945CFF;
+  text-decoration: none;
+}
+
+table {
+  background: #5C8DFF;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+
+table td,
+th {
+  padding: 0.2rem 0.8rem;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+table th {
+  font-size: 15px;
+}
+
+table td {
+  font-size: 13px;
+  color: white;
+}
+
+
+/* Sidebar Section */
+
+.sidebar {
+  width: 9%;
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 5px;
+}
+
+.sidebar h4 {
+  margin-bottom: 1.5rem;
+  color: #5C8DFF;
+  text-align: center;
+}
+
+.sidebar .balance {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #487df8;
+}
+
+.balance .icon {
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-right: 1rem;
+  padding: 1rem;
+  background: #487df8;
+}
+
+.balance .info h5 {
+  font-size: 16px;
+  color: #487df8;
+}
+
+.balance .info span {
+  font-size: 14px;
+  color: #0031a3;
+}
+
+.balance .info i {
+  margin-right: 2px;
+  color: #0031a3;
+}
+
+/* caixas de informacoes sobre usarios e enderecos */
+
+.box_info{
+  margin: 25px 15px;
+  align-items: center;
+  justify-content: center;
+}
+.number_info{
+  text-align: center;
+}
+.table_info{
+  align-items: center;
+  justify-content: center;
+}
